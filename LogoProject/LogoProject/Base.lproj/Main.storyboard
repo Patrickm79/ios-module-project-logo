@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kT4-a4-eAB" customClass="LogoView" customModule="LogoProject" customModuleProvider="target">
-                                <rect key="frame" x="37.666666666666629" y="256" width="300" height="300"/>
+                                <rect key="frame" x="37.666666666666657" y="256" width="300" height="300"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="kT4-a4-eAB" secondAttribute="height" multiplier="1:1" id="1ey-cu-4wn"/>
@@ -32,9 +32,6 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <outlet property="logoViewOutlet" destination="kT4-a4-eAB" id="17C-Um-eAF"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
