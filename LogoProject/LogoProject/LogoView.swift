@@ -12,7 +12,7 @@ import UIKit
     @IBDesignable class LogoView: UIView {
         
          let lambdaBgColor = UIColor.red
-         let lambdaIconColor = UIColor.white
+         let lambdaIconColor = UIColor.red
 
          let heightOffset: CGFloat = 70.0
          let logoHeight: CGFloat = 30.0
@@ -81,6 +81,7 @@ import UIKit
                 context.closePath()
                 context.setFillColor(lambdaIconColor.cgColor)
                 context.fillPath()
+        
             }
         }
         //MARK: - Constraints
